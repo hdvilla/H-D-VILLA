@@ -754,7 +754,7 @@ Cảm ơn!`;
               <Field label="Ngày trả"><input name="checkout" required type="date" className="bg-transparent outline-none w-full text-ivory-50 pb-3 border-b hairline-light focus:border-terracotta-400"/></Field>
             </div>
             <Field label="Số khách">
-              <select name="guests" className="native outline-none w-full text-ivory-50 pb-3 border-b hairline-light focus:border-terracotta-400">
+              <select name="guests" className="native bg-transparent outline-none w-full text-ivory-50 pb-3 border-b hairline-light focus:border-terracotta-400 appearance-none">
                 <option className="text-ink-900">10 khách</option><option className="text-ink-900">15 khách</option><option className="text-ink-900">20 khách</option><option className="text-ink-900">25 khách</option><option className="text-ink-900">30 khách</option>
               </select>
             </Field>

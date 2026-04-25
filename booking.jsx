@@ -372,7 +372,7 @@ function GuestRow({label, sub, value, setValue, min, max}) {
           className="w-9 h-9 rounded-full border hairline-strong flex items-center justify-center hover:bg-ivory-100 disabled:opacity-30">
           <Icon name="Minus" size={14}/>
         </button>
-        <div className="w-8 text-center font-display text-xl">{value}</div>
+        <div className="w-8 text-center font-display text-xl text-ink-900">{value}</div>
         <button onClick={()=>setValue(Math.min(max, value+1))} disabled={value>=max}
           className="w-9 h-9 rounded-full border hairline-strong flex items-center justify-center hover:bg-ivory-100 disabled:opacity-30">
           <Icon name="Plus" size={14}/>
